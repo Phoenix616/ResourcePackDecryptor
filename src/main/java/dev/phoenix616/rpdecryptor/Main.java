@@ -21,10 +21,12 @@ package dev.phoenix616.rpdecryptor;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Properties;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.zip.ZipFile;
 
 public class Main {
@@ -81,13 +83,18 @@ public class Main {
         }
 
         try (ZipFile zip = new ZipFile(input)) {
+            int amount = zip.size();
+            AtomicInteger extracted = new AtomicInteger(0);
             zip.stream().forEach(entry -> {
                 try {
                     Path path = Paths.get(output.getAbsolutePath(), entry.getName());
                     Files.createDirectories(path.getParent());
                     Files.copy(zip.getInputStream(entry), path);
+                    System.out.println("[" + extracted.incrementAndGet() + "/" + amount + "] Extracted " + entry.getName());
+                } catch (FileAlreadyExistsException e) {
+                    System.out.println("[" + extracted.incrementAndGet() + "/" + amount + "] File " + entry.getName() + " was already extracted!");
                 } catch (IOException e) {
-                    throw new RuntimeException(e);
+                    System.out.println("Failed to extract " + entry.getName() + ": " + e.getClass().getSimpleName() + " " + e.getMessage());
                 }
             });
         } catch (IOException e) {
