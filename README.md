@@ -14,25 +14,27 @@ My personal suggestion is to not use such tools to "encrypt" your resource packs
 
 <details>
 <summary>GitHub Copilot's take on why you shouldn't use such tools</summary>
-If you want to protect your resource pack, use a license and/or watermark it. If you want to prevent people from
- modifying your resource pack, use a license that forbids it. If you want to prevent people from using your resource
- pack in their own packs, use a license that forbids it. If you want to prevent people from redistributing your
- resource pack, use a license that forbids it. If you want to prevent people from using your resource pack on their
- servers, use a license that forbids it. If you want to prevent people from using your resource pack in their videos,
- use a license that forbids it. If you want to prevent people from using your resource pack in their livestreams,
- use a license that forbids it. If you want to prevent people from using your resource pack in their mods, use a
- license that forbids it. If you want to prevent people from using your resource pack in their modpacks, use a license
- that forbids it. If you want to prevent people from using your resource pack in their own games, use a license that
- forbids it. If you want to prevent people from using your resource pack in their own software, use a license that
- forbids it. If you want to prevent people from using your resource pack in their own art, use a license that forbids
- it. If you want to prevent people from using your resource pack in their own music, use a license that forbids it.
- If you want to prevent people from using your resource pack in their own books, use a license that forbids it.
- If you want to prevent people from using your resource pack in their own movies, use a license that forbids it.
- If you want to prevent people from using your resource pack in their own TV shows, use a license that forbids it.
- If you want to prevent people from using your resource pack in their own comics, use a license that forbids it.
- If you want to prevent people from using your resource pack in their own manga, use a license that forbids it.
- If you want to prevent people from using your resource pack in their own anime, use a license that forbids it.
- If you want to prevent people from using your resource pack in their own games, use a license that forbids it.
+
+ If you want to protect your resource pack, use a license and/or watermark it.  
+ If you want to prevent people from modifying your resource pack, use a license that forbids it.  
+ If you want to prevent people from using your resource pack in their own packs, use a license that forbids it.  
+ If you want to prevent people from redistributing your resource pack, use a license that forbids it.  
+ If you want to prevent people from using your resource pack on their servers, use a license that forbids it.  
+ If you want to prevent people from using your resource pack in their videos, use a license that forbids it.  
+ If you want to prevent people from using your resource pack in their livestreams, use a license that forbids it.  
+ If you want to prevent people from using your resource pack in their mods, use a license that forbids it.  
+ If you want to prevent people from using your resource pack in their modpacks, use a license that forbids it.  
+ If you want to prevent people from using your resource pack in their own games, use a license that forbids it.  
+ If you want to prevent people from using your resource pack in their own software, use a license that forbids it.  
+ If you want to prevent people from using your resource pack in their own art, use a license that forbids it.  
+ If you want to prevent people from using your resource pack in their own music, use a license that forbids it.  
+ If you want to prevent people from using your resource pack in their own books, use a license that forbids it.  
+ If you want to prevent people from using your resource pack in their own movies, use a license that forbids it.  
+ If you want to prevent people from using your resource pack in their own TV shows, use a license that forbids it.  
+ If you want to prevent people from using your resource pack in their own comics, use a license that forbids it.  
+ If you want to prevent people from using your resource pack in their own manga, use a license that forbids it.  
+ If you want to prevent people from using your resource pack in their own anime, use a license that forbids it.  
+ If you want to prevent people from using your resource pack in their own games, use a license that forbids it.  
 
 (Yes, all of that was generated as one line by GitHub Copilot after I wrote "My personal suggestion is to not use such
  tools to "encrypt" your resource packs. It's not worth it and it's not secure." and pressed enter.
