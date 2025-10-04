@@ -1,3 +1,10 @@
+> [!CAUTION]
+> ## Repository is archived as I'm leaving GitHub!
+>
+> GitHub wants me to "embrace AI or get out". So I'm leaving.
+> 
+> Continued development will happen on Codeberg: https://codeberg.org/Phoenix616/ResourcePackDecryptor
+
 # ResourcePack"Decryptor"
 
 A simple tool to unpack corrupted zip files commonly used to "encrypt" Minecraft resource packs with tools like PackSquash.
